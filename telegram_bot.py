@@ -1,4 +1,4 @@
-import telebot
+import aiogram
 
 from settings import *
 
