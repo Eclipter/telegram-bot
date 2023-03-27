@@ -7,7 +7,7 @@ from settings import *
 logging.basicConfig(level=logging.INFO)
 
 bot = Bot(token=TELEGRAM_BOT_API_KEY)
-chatgpt = OPEN_AI_API_KEY
+chatgpt = OPENAI_API_KEY
 dp = Dispatcher(bot)
 
 
